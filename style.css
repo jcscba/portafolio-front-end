@@ -1,0 +1,175 @@
+header{
+	
+	background: #E5E5E5;
+	padding: 20px ;
+}
+
+.caja{
+	margin: 10px auto; 
+	width: 940px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between ;
+
+
+}
+h1 {
+	width: 102px;
+	text-align: left;
+	font-family: raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+main{
+
+
+	
+}
+.navegacion {
+	display: flex;
+
+}
+
+.navegacion li{
+	margin: 0px 10px;
+
+}
+nav a{
+	color: #464646;
+	height: 19px;
+
+	font-family: raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+
+}
+
+.presentacion{
+		
+		padding: 2em 10% 2em 20%;
+}
+
+.datos-personales{
+
+	font-family: raleway;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 52px;
+
+}
+
+.presentacion p{
+
+	font-family: raleway;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 19px;
+
+}
+
+.redes-sociales{
+	margin: 1em 0;
+	font-family: raleway;
+	font-style: normal;
+	font-weight: 500; 
+	font-size: 16px;
+	display: flex;
+	text-decoration: none;
+}
+
+.redes-sociales li{
+
+	margin: 0 10px 0 0;
+;	
+}
+
+.flecha{
+
+	margin: 0 50px 0 0;
+}
+
+.foto-perfil{
+	border-radius: 50%;
+	width:368px;
+	float: right;
+
+}
+.sobre-mi{
+	margin: 100px 0 100px 0;
+	background: #EAF2FD;
+	padding: 2em 20%;
+}
+
+.sobre-mi h3{
+
+	font-size: 32px;
+	font-family: Raleway;
+	font-weight: 700;  
+	font-style: normal;
+	color: #464646;
+}
+
+.sobre-mi p{
+	width: 751px;
+	font-size: 16px;
+	font-family: Raleway;
+	font-weight: 400;  
+	font-style: normal;
+	color: #464646;
+}
+
+.formacion, .pasatiempos{
+
+	margin: 0px 0 0px 0;
+	background: #E5E5E5;
+	padding: 3em 20%;
+
+}
+
+.formacion h3, .pasatiempos h3{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #464646;
+
+}
+
+.formacion ul, .pasatiempos ul{
+
+	display: flex;
+	align-items: space-between;
+}
+
+.skill, .hobbies{
+	background: white;
+	margin: 0 16px 0 0;
+	width: 176px;
+	height: 174px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding: 16px;
+
+}
+footer{
+	text-align: center;
+	padding: 40px;
+}
+
+
+.copyright{
+	color: #4D3F3F;
+	font-size: 13px;
+	margin: 25px 0  25px 0;
+}

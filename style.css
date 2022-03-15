@@ -112,13 +112,13 @@ nav a{
 	color: #464646;
 }
 
-.skills, .pasatiempos{
+.skills, .pasatiempos, .experiencia{
 	margin: 0px 0 0px 0;
 	background: #E5E5E5;
 	padding: 3em 10%  3em 20%;
 }
 
-.skills h3, .pasatiempos h3, .formacion h3{
+.skills h3, .pasatiempos h3, .formacion h3, .experiencia h3{
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
@@ -330,6 +330,81 @@ nav a{
 	margin: 32px 0px;
 }
 
+.experiencia img{
+
+	width: 752px;
+	height: 406px;
+	align-self: stretch;
+	margin: 0px 16px;
+}
+
+.experiencia section{
+	display: flex;
+	align-items: space-between;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.experiencia h4{
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+	/* Preto/100% */
+	color: #464646;
+	/* Inside auto layout */
+	align-self: stretch;
+	margin: 8px 0px;
+}
+
+.experiencia p{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+	/* Preto/100% */
+	color: #464646;
+	/* Inside auto layout */
+	order: 1;
+	align-self: stretch;
+	margin: 8px 0px;
+}
+
+.repositorio{
+
+	width: 116px;
+	height: 51px;
+	left: 16px;
+	top: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	/* identical to box height */
+	/* Azul/100% */
+	color: #2A7AE4;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	border-color: #2A7AE4;
+}
 
 footer{
 	text-align: center;
